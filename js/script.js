@@ -16,12 +16,8 @@ var app = new Vue(
     el: "#container",
     data: {
       message: "",
-      }
+      text:"",
+      immagine:"img/Tesla-Elon-Musk.jpg",
     }
-
-    el: "#container2",
-    data: {
-      text : "",
-      }
-    }
+  }
 );
