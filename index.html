@@ -8,16 +8,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.js" integrity="sha512-MQkEjxbZvzs4TX8ES4/tTIyaYdtDlJzVocnPo0GoysTR0jCmNg0P2is7uqpCoWxmoS9X84CDVzuWgZD/R/Q2oQ==" crossorigin="anonymous"></script>
     <!-- j-Query -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/script.js" charset="utf-8"></script>
+
     <link rel="stylesheet" href="css/style.css">
     <title>VUE-hello</title>
 
   </head>
   <body>
-    
-    <div id="root">
+
+    <!-- <div id="root">
+
       <input v-model="message">
+      <p>{{ message }}</p>
+    </div> -->
+
+    <div id="container">
+      <input type="text" name="" value="" v-model="message" placeholder="write here">
+      <h1>{{message}}</h1>
     </div>
 
+    <div id="container2">
+      <input type="text" name="" value="" v-model="message" placeholder="write here">
+      <p>{{text}}</p>
+    </div>
+
+    <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>
